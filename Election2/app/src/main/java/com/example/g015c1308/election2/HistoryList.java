@@ -24,7 +24,7 @@ public class HistoryList extends AppCompatActivity {
 
         list = (ListView)findViewById(R.id.historyList);
         mRealm = Realm.getDefaultInstance();
-        ArrayList<String> arrayList = new ArrayList<>();
+        final ArrayList<String> arrayList = new ArrayList<>();
 
         RealmResults<HistoryModel> results = mRealm.where(HistoryModel.class).findAll();
         if(results != null){
@@ -38,8 +38,12 @@ public class HistoryList extends AppCompatActivity {
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String name = arrayList.get(position);
+                NameModel nameModel = mRealm.where(NameModel.class).equalTo("name",name).findFirst();
+                int nameId = nameModel.getId();
                 Intent intent = new Intent(HistoryList.this,Member.class);
-
+                intent.putExtra("NameId",nameId);
+                startActivity(intent);
             }
         });
     }
