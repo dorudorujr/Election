@@ -4,8 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.CheckBox;
 import android.widget.TextView;
+
+import com.sackcentury.shinebuttonlib.ShineButton;
 
 import java.util.ArrayList;
 
@@ -37,7 +38,7 @@ public class Member extends AppCompatActivity {
         TextView manifesto2 = (TextView)findViewById(R.id.manifesto2);
         TextView manifesto3 = (TextView)findViewById(R.id.manifesto3);
         TextView manifesto4 = (TextView)findViewById(R.id.manifesto4);
-        final CheckBox checkBox = (CheckBox)findViewById(R.id.checkBox);
+        final ShineButton shineButton = (ShineButton) findViewById(R.id.shine_button);
         //表示処理
         if(nameId != -1){
             name.setText(nameMember);
@@ -55,12 +56,12 @@ public class Member extends AppCompatActivity {
         //お気に入り機能
         final FavoriteModel favoriteModel = mRealm.where(FavoriteModel.class).equalTo("favoriteNameId",nameId).findFirst();
         if(favoriteModel != null){
-            checkBox.setChecked(favoriteModel.isCheck());
+            shineButton.setChecked(favoriteModel.isCheck());
         }
-        checkBox.setOnClickListener(new View.OnClickListener() {
+        shineButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(checkBox.isChecked() == true){
+                if(shineButton.isChecked() == true){
                     mRealm.executeTransaction(new Realm.Transaction() {
                         @Override
                         public void execute(Realm realm) {
