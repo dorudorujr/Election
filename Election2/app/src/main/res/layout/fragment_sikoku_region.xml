@@ -48,6 +48,10 @@
                     android:layout_marginRight="52dp"
                     android:layout_marginTop="64dp"
                     android:text="香川"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -58,6 +62,10 @@
                     android:layout_marginRight="52dp"
                     android:layout_marginTop="32dp"
                     android:text="徳島"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/kagawa" />
 
@@ -68,6 +76,10 @@
                     android:layout_marginLeft="52dp"
                     android:layout_marginTop="64dp"
                     android:text="高知"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -78,6 +90,10 @@
                     android:layout_marginLeft="52dp"
                     android:layout_marginTop="32dp"
                     android:text="愛媛"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/kouti" />
             </android.support.constraint.ConstraintLayout>

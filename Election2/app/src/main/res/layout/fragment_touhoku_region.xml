@@ -49,6 +49,10 @@
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
                     android:text="青森"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -60,6 +64,10 @@
                     android:layout_marginRight="52dp"
                     android:layout_marginTop="16dp"
                     android:text="岩手"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/aomori" />
 
@@ -70,6 +78,10 @@
                     android:layout_marginLeft="52dp"
                     android:layout_marginTop="16dp"
                     android:text="秋田"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/aomori" />
 
@@ -80,6 +92,10 @@
                     android:layout_marginLeft="52dp"
                     android:layout_marginTop="16dp"
                     android:text="山形"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/akita" />
 
@@ -90,6 +106,10 @@
                     android:layout_marginRight="52dp"
                     android:layout_marginTop="16dp"
                     android:text="宮城"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/iwate" />
 
@@ -101,6 +121,10 @@
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="16dp"
                     android:text="福島"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/yamagata" />

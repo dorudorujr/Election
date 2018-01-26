@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         //API関連（始まり）
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://10.0.2.2:3000/")
+                .baseUrl("http://153.126.179.26:3000/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

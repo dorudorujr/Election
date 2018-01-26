@@ -50,6 +50,10 @@
                     android:layout_marginRight="52dp"
                     android:layout_marginTop="24dp"
                     android:text="福岡"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -60,6 +64,10 @@
                     android:layout_marginRight="52dp"
                     android:layout_marginTop="16dp"
                     android:text="佐賀"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/fukuoka" />
 
@@ -70,6 +78,10 @@
                     android:layout_marginRight="52dp"
                     android:layout_marginTop="16dp"
                     android:text="長崎"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/saga" />
 
@@ -80,6 +92,10 @@
                     android:layout_marginRight="52dp"
                     android:layout_marginTop="16dp"
                     android:text="熊本"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/nagasaki" />
 
@@ -90,6 +106,10 @@
                     android:layout_marginLeft="52dp"
                     android:layout_marginTop="24dp"
                     android:text="大分"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -100,6 +120,10 @@
                     android:layout_marginLeft="52dp"
                     android:layout_marginTop="16dp"
                     android:text="宮崎"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/ooita" />
 
@@ -110,6 +134,10 @@
                     android:layout_marginLeft="52dp"
                     android:layout_marginTop="16dp"
                     android:text="鹿児島"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/miyazaki" />
 
@@ -120,6 +148,10 @@
                     android:layout_marginLeft="52dp"
                     android:layout_marginTop="16dp"
                     android:text="沖縄"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/kagosima" />
             </android.support.constraint.ConstraintLayout>

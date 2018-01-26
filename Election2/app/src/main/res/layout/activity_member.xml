@@ -192,14 +192,16 @@
 
                 <Button
                     android:id="@+id/detile"
-                    android:theme="@style/AppTheme.FlatButton"
-                    style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="16dp"
                     android:layout_marginTop="16dp"
                     android:onClick="onMemoButtonTapped"
                     android:text="memo"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.RaisedButton"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/manifesto4" />
 

@@ -8,6 +8,6 @@ import retrofit2.http.GET;
  */
 
 public interface NameService {
-    @GET("/testApi")
+    @GET("/Api")
     Call<Example> getExample();
 }
