@@ -54,13 +54,14 @@ public class Member extends AppCompatActivity {
             manifesto4.setText(manifestoList.get(3));
         }
         //お気に入り機能
-        final FavoriteModel favoriteModel = mRealm.where(FavoriteModel.class).equalTo("favoriteNameId",nameId).findFirst();
-        if(favoriteModel != null){
-            shineButton.setChecked(favoriteModel.isCheck());
+        final FavoriteModel favoriteModelflag = mRealm.where(FavoriteModel.class).equalTo("favoriteNameId",nameId).findFirst();
+        if(favoriteModelflag != null){
+            shineButton.setChecked(favoriteModelflag.isCheck());
         }
         shineButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                final FavoriteModel favoriteModel = mRealm.where(FavoriteModel.class).equalTo("favoriteNameId",nameId).findFirst();
                 if(shineButton.isChecked() == true){
                     mRealm.executeTransaction(new Realm.Transaction() {
                         @Override

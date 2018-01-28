@@ -39,7 +39,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="145dp"
-                    android:text="アプリ名"
+                    android:text="公約辞書"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
                     android:textSize="36sp"
                     app:layout_constraintLeft_toLeftOf="parent"

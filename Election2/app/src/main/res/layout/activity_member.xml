@@ -59,21 +59,21 @@
 
             <com.sackcentury.shinebuttonlib.ShineButton
                 android:id="@+id/shine_button"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_centerInParent="true"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="16dp"
                 android:src="@android:color/darker_gray"
+                app:allow_random_color="true"
                 app:btn_color="@android:color/darker_gray"
                 app:btn_fill_color="@android:color/holo_orange_light"
-                app:siShape="@raw/star"
-                app:shine_turn_angle="20"
-                app:shine_count="15"
-                app:allow_random_color="true"
                 app:enable_flashing="true"
-                android:layout_marginTop="0dp"
+                app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/memberurl"
-                android:layout_marginRight="8dp"
-                app:layout_constraintRight_toRightOf="parent" />
+                app:shine_count="15"
+                app:shine_turn_angle="20"
+                app:siShape="@raw/star" />
 
         </android.support.constraint.ConstraintLayout>
     </android.support.v7.widget.CardView>
